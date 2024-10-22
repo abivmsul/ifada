@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ifada/static/css/main.ea84270b.css",
-    "main.js": "/ifada/static/js/main.fd051faa.js",
+    "main.css": "/ifada/static/css/main.9a154e06.css",
+    "main.js": "/ifada/static/js/main.b51a5454.js",
     "static/js/453.613f6706.chunk.js": "/ifada/static/js/453.613f6706.chunk.js",
     "static/media/logo.png": "/ifada/static/media/logo.6c0f6af5e14b4bfddb41.png",
     "index.html": "/ifada/index.html",
-    "main.ea84270b.css.map": "/ifada/static/css/main.ea84270b.css.map",
-    "main.fd051faa.js.map": "/ifada/static/js/main.fd051faa.js.map",
+    "main.9a154e06.css.map": "/ifada/static/css/main.9a154e06.css.map",
+    "main.b51a5454.js.map": "/ifada/static/js/main.b51a5454.js.map",
     "453.613f6706.chunk.js.map": "/ifada/static/js/453.613f6706.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea84270b.css",
-    "static/js/main.fd051faa.js"
+    "static/css/main.9a154e06.css",
+    "static/js/main.b51a5454.js"
   ]
 }
