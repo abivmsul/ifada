@@ -1,0 +1,91 @@
+/* src/ComingSoon.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif; /* Elegant font for body */
+  background: linear-gradient(135deg, #e0a144 0%, #1a4a96 100%); /* Gradient background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.coming-soon-container {
+  background-color: rgba(255, 255, 255, 0.838); /* Slightly transparent white for elegance */
+  padding: 40px 30px; /* Adjusted padding for balance */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  animation: fadeIn 1s ease-in-out; /* Container fade-in effect */
+  position: relative; /* For positioning the shadow */
+  z-index: 1; /* Ensure it appears above the gradient */
+}
+
+.logo {
+  width: 200px; /* Adjust the logo size as necessary */
+  height: auto;
+}
+
+.animated-logo {
+  animation: logoBounce 2s infinite; /* Logo bounce animation */
+}
+
+h1 {
+  color: #1a4a96; /* Use the dark blue from the logo */
+  font-size: 1.8em; /* Slightly smaller to fit nicely */
+  margin: 20px 0;
+}
+
+p {
+  color: #34495e; /* Slightly lighter blue for the paragraph */
+  font-size: 1.1em; /* Medium font size */
+  margin: 10px 0 20px;
+  line-height: 1.5; /* Improved line spacing for readability */
+}
+
+.countdown {
+  font-size: 1.5em;
+  color: #e0a144; /* Use the golden color for countdown */
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #888;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes logoBounce {
+  0%, 100% {
+    transform: translateY(0); /* Original position */
+  }
+  50% {
+    transform: translateY(-10px); /* Bounce effect */
+  }
+}
+
+/* Additional shadow effect for the container */
+.coming-soon-container::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: rgba(255, 255, 255, 0.2); /* Light white shadow */
+  border-radius: 15px; /* Match the container's border radius */
+  z-index: -1; /* Place behind the main container */
+  filter: blur(20px); /* Soft blur effect for the shadow */
+}
