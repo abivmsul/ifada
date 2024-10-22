@@ -1,12 +1,10 @@
-import React from 'react';
 import ComingSoon from './ComingSoon';
 
-const App: React.FC = () => {
+function App() {
   return (
-    <div>
+    <div className="App">
       <ComingSoon />
     </div>
   );
-};
-
+}
 export default App;
